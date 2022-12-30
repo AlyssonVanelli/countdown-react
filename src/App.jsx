@@ -1,4 +1,4 @@
-import Title from './components/title'
+import Title from './components/Title'
 import Counter from './components/Counter'
 
 import useContdown from './hooks/useCountdown'
