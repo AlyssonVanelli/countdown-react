@@ -8,20 +8,12 @@ import israel from './assets/israel.jpg'
 import './App.css'
 
 function App() {
-  const [day, hour, minute, second] = useContdown("Mar 8, 2023 12:00:00")
-  const [day2, hour2, minute2, second2] = useContdown("Sep 8, 2023 12:00:00")
-  const [day3, hour3, minute3, second3] = useContdown("Nov 8, 2023 12:00:00")
+  const [day2, hour2, minute2, second2] = useContdown("Ago 18, 2023 12:00:00")
+  const [day3, hour3, minute3, second3] = useContdown("Out 29, 2023 12:00:00")
 
   return (
     <div className="App" style={{ backgroundImage: `url(${israel}` }} >
       <div className="container">
-        <Title title='Israel' />
-        <div className="countdown-container">
-          <Counter title='Dias' number={day} />
-          <Counter title='Horas' number={hour} />
-          <Counter title='Minutos' number={minute} />
-          <Counter title='Segundos' number={second} />
-        </div>
         <Title title='Selichot' />
         <div className="countdown-container">
           <Counter title='Dias' number={day2} />
