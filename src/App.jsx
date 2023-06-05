@@ -8,8 +8,8 @@ import israel from './assets/israel.jpg'
 import './App.css'
 
 function App() {
-  const [day2, hour2, minute2, second2] = useContdown("Ago 18, 2023 12:00:00")
-  const [day3, hour3, minute3, second3] = useContdown("Out 29, 2023 12:00:00")
+  const [day2, hour2, minute2, second2] = useContdown("Aug 18, 2023 12:00:00")
+  const [day3, hour3, minute3, second3] = useContdown("Oct 29, 2023 12:00:00")
 
   return (
     <div className="App" style={{ backgroundImage: `url(${israel}` }} >
